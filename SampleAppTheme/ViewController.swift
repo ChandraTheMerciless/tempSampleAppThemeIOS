@@ -15,6 +15,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //themeToggle.isOn = false;
+        self.view.backgroundColor = UIColor.white;
+    }
+    
+    @IBAction func themeToggle(_ sender: UISwitch!) {
+        if(sender.isOn){
+            self.view.backgroundColor = UIColor.black
+        } else {
+            self.view.backgroundColor = UIColor.white
+        }
     }
     
     @IBAction func stepIncrementer(sender: UIStepper){

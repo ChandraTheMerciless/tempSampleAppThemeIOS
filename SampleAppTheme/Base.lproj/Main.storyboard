@@ -36,8 +36,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="highlightedColor" red="0.40710807378853786" green="0.56137371212422471" blue="0.80847104057591623" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p6k-U1-9oz">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="p6k-U1-9oz">
                                 <rect key="frame" x="163" y="80" width="51" height="31"/>
+                                <connections>
+                                    <action selector="themeToggle:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="gMe-L5-JBQ"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCp-dy-s30">
                                 <rect key="frame" x="16" y="20" width="33" height="30"/>
